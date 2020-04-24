@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>02_html5_list_연습.html</title>
+</head>
+<body>
+
+<!-- 상대경로 -->
+<ul>
+	<li><a href ='../images/sample/curry.jpg'>이미지파일(sensitive.jpg)</a></li>
+	<li><a href ='../midea/Force_Alan Walker.mp3'>음악파일</a></li>
+	<li><a href ='../Kingdom.2019.S02E01.Episode.1.720p.NF.WEB-DL.DDP5.1.x264-NTG'>동영상파일</a></li>
+	<li><a href =''>문서(01_html5_section.html)</a></li>
+</ul>
+
+
+<!-- 절대경로 -->
+
+<ul>
+	<li><a href =''>이미지파일(sensitive.jpg)</a></li>
+	<li><a href =''>음악파일</a></li>
+	<li><a href =''>동영상파일</a></li>
+	<li><a href =''>문서(01_html5_section.html)</a></li>
+</ul>
+
+
+</body>
+</html>

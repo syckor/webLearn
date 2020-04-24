@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>02_html5_list_연습.html</title>
+</head>
+<body>
+
+<!-- 상대경로 -->
+<ul>
+	<li>이미지파일(sensitive.jpg)</li>
+	<li>음악파일</li>
+	<li>동영상파일</li>
+	<li>문서(01_html5_section.html)</li>
+</ul>
+
+
+<!-- 절대경로 -->
+
+<ul>
+	<li>이미지파일(sensitive.jpg)</li>
+	<li>음악파일</li>
+	<li>동영상파일</li>
+	<li>문서(01_html5_section.html)</li>
+</ul>
+
+
+</body>
+</html>

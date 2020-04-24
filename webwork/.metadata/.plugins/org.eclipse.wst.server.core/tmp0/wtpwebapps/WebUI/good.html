@@ -1,0 +1,31 @@
+<!-- 색상 RRGGBB(red/green/bule) : 16진수 
+	0~9 + A(10), B(11), C(12), D(13), E(14), F(15)
+
+	9       F
+   +1      +1
+   --- ----------
+   10	    10
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title> good.html</title>
+	<style type ="text/css">
+		#txt {color: #FF3300}
+	</style>
+</head>
+<body>
+	
+		<div id='txt'>표준안 따름</div>
+		
+		<script type = "text/javascript">
+			var txt = document.getElementByID("txt");
+			txt.onclick = function(){
+				alert("확인2")
+			}
+		</script>
+	
+</body>
+</html>

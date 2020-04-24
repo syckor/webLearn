@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>02_html5_list_연습.html</title>
+</head>
+<body>
+
+<h2>현재 이 페이지에서 출력</h2>
+<img src='../images/sample/curry.jpg' alt="Girl in a jacket" style="width:500px;height:600px;></img>
+<audio src ="../midea/Force_Alan Walker.mp3"></audio>
+<video src ='../midea/kakaotalk_1577444194623.mp4'></video>
+
+
+
+<hr/>
+
+<!-- 상대경로 -->
+<ul>
+	<li><a href ='../images/sample/curry.jpg'>이미지파일(sensitive.jpg)</a></li>
+	<li><a href ='../midea/Force_Alan Walker.mp3'>음악파일</a></li>
+	<li><a href ='../midea/kakaotalk_1577444194623.mp4'>동영상파일</a></li>
+	<li><a href ='01_html5_section.html'>문서(01_html5_section.html)</a></li>
+</ul>
+
+
+<!-- 절대경로 -->
+
+<ul>
+	<li><a href ='/WebUI/images/sample/curry.jpg'>이미지파일(sensitive.jpg)</a></li>
+	<li><a href ='/WebUI/midea/Force_Alan Walker.mp3'>음악파일</a></li>
+	<li><a href ='/WebUI/midea/kakaotalk_1577444194623.mp4'>동영상파일</a></li>
+	<li><a href ='/WebUI/1_html5_class/01_html5_section.html'>문서(01_html5_section.html)</a></li>
+</ul>
+
+
+</body>
+</html>

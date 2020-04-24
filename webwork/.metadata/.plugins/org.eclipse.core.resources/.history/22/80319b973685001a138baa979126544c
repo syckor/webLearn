@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action='xxxxx.jsp' method='post'>
+	<fieldset>
+		<legend>로그인정보</legend>
+		<ol>
+		<lable for='id'>아이디</lable>
+		<input id='id' name ='id' type='text'>
+		<lable for='password'>비밀번호</lable>
+		<input id='password' name ='password' type='text'>
+		<lable for='checking'>비밀번호 확인</lable>
+		<input id='checking' name ='checking' type='text'>
+		<lable for='grade'>회원 등급</lable>
+		<input id='grade' name ='grade' type='text'>
+	</fieldset>	
+	<fieldset>	
+		</ol>
+		<legend>개인정보</legend>
+		<ol>
+		
+		
+		
+		
+		</ol>
+	</fieldset>		
+		<legend>코딩 숙련도(상,중,하)</legend>
+		<ol>
+		
+		
+			
+		</ol>
+	<input type = 'submit' value='제출'/>
+	</fieldset>	
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action='xxxxx.jsp'>
+	<fieldset>
+		<legend>회원 가입</legend>
+		<ol>
+			<li>
+				<lable for='irum'>이름</lable><input id='irum' name ='irum' type='text'>
+			</li>
+			<li>
+				<lable for='gender'>성별</lable>
+				<input type='radio' id = 'gender' name ='gender' value ='남자' checked = 'checked'>남자
+				<input type='radio' id = 'gender' name ='gender' value ='여자'>여자
+			</li>
+			<li>
+				<lable for='lover'>애인</lable>
+				<input type='radio' id = 'lover' name ='lover' value ='있다' checked = 'checked'>있다
+				<input type='radio' id = 'lover' name ='lover' value ='없다'>없다
+			</li>
+			<li>
+				<input type = 'submit' value='서버에 전송'/>
+				<input type = 'reset' value='취소'/>
+			</li>
+		</ol>
+	</fieldset>
+</form>
+</body>
+</html>
