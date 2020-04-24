@@ -1,0 +1,31 @@
+자바 motto 
+Write once Run anywhere!
+
+자바 GUI
+	-1.1 : AWT
+	
+	-1.2 : Swing
+
+Swing
+	-OS구별 없이 모양 동일
+	-화면에 관한 클래스와 메쏘드가 다양함	
+	-일반적으로 클래스명 앞에 J만 붙이면 됨
+
+화면요소 : Component
+	- 붙을 수 있는 요소 : Container
+					(Window/Frame / Panel/...)
+
+
+Layout(배치 : Container 에 붙이는 방식)
+	-flow LayOut
+		-윗줄 상단에 한줄로 배치
+		-Component(요소)의 크기가 고정
+	
+	-GridLayout
+		-행과 열에 맞춰서 배치
+		-Component의 크기가 변경
+		
+	-BorderLayout
+		-CENTER, NORTH, SOUTH, WEST, EAST 영역에 배치
+		-Component의 크기가 변경	
+	
